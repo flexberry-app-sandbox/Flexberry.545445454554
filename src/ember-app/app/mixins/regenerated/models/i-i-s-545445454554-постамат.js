@@ -58,10 +58,10 @@ export let defineProjections = function (modelClass) {
     }, { index: 3, displayMemberPath: 'наименвоание' }),
     ячейка: hasMany('i-i-s-545445454554-ячейка', 'Ячейка', {
       номерЯчейки: attr('Номер ячейки', { index: 0 }),
-      хранение: belongsTo('i-i-s-545445454554-хранение', 'Хранение', {
-        датаНачала: attr('Дата начала', { index: 2 }),
+      хранение: belongsTo('i-i-s-545445454554-хранение', 'Дата начала', {
+        датаНачала: attr('Дата начала', { index: 2, hidden: true }),
         датаЗавершения: attr('Дата завершения ', { index: 3 }),
-        продления: attr('Продления', { index: 4, hidden: true })
+        продления: attr('Продления', { index: 4 })
       }, { index: 1, displayMemberPath: 'продления' })
     })
   });

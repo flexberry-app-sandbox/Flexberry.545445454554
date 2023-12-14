@@ -31,7 +31,7 @@ CREATE TABLE Ключ (
 CREATE TABLE Посылка (
  primaryKey UUID NOT NULL,
  Номер INT NULL,
- Статус VARCHAR(1) NULL,
+ Статус VARCHAR(22) NULL,
  Ключ UUID NOT NULL,
  Логистика UUID NOT NULL,
  Транзакция UUID NOT NULL,
@@ -43,7 +43,7 @@ CREATE TABLE Логистика (
  primaryKey UUID NOT NULL,
  Информация VARCHAR(255) NULL,
  Номер INT NULL,
- Состояние VARCHAR(1) NULL,
+ Состояние VARCHAR(25) NULL,
  СлужбаДоставки UUID NOT NULL,
  PRIMARY KEY (primaryKey));
 
@@ -61,7 +61,7 @@ CREATE TABLE Транзакция (
  Время VARCHAR(255) NULL,
  Дата TIMESTAMP(3) NULL,
  Номер INT NULL,
- Оплата VARCHAR(1) NULL,
+ Оплата VARCHAR(18) NULL,
  Сумма DOUBLE PRECISION NULL,
  Пользователь UUID NOT NULL,
  PRIMARY KEY (primaryKey));
@@ -79,7 +79,7 @@ CREATE TABLE Постамат (
  primaryKey UUID NOT NULL,
  Адрес VARCHAR(255) NULL,
  Номер INT NULL,
- Статус VARCHAR(1) NULL,
+ Статус VARCHAR(10) NULL,
  СлужбаДоставки UUID NOT NULL,
  PRIMARY KEY (primaryKey));
 

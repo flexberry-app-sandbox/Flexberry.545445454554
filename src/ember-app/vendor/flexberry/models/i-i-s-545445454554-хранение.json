@@ -38,7 +38,7 @@
       "type": "string",
       "flexberryType": "string",
       "notNull": false,
-      "defaultValue": "",
+      "defaultValue": "НеПродлен",
       "stored": true,
       "ordered": false
     }

@@ -12,6 +12,7 @@ namespace IIS.545445454554
 {
     using System;
     using System.Xml;
+    using ICSSoft.STORMNET;
     
     
     // *** Start programmer edit section *** (Using statements)
@@ -31,6 +32,43 @@ namespace IIS.545445454554
         // *** Start programmer edit section *** (Состояние.1 CustomAttributes)
 
         // *** End programmer edit section *** (Состояние.1 CustomAttributes)
+        [Caption("Оформлен")]
         1,
+        
+        // *** Start programmer edit section *** (Состояние.2 CustomAttributes)
+
+        // *** End programmer edit section *** (Состояние.2 CustomAttributes)
+        [Caption("Отправлен на сборку")]
+        2,
+        
+        // *** Start programmer edit section *** (Состояние.3 CustomAttributes)
+
+        // *** End programmer edit section *** (Состояние.3 CustomAttributes)
+        [Caption("Собран на складе")]
+        3,
+        
+        // *** Start programmer edit section *** (Состояние.4 CustomAttributes)
+
+        // *** End programmer edit section *** (Состояние.4 CustomAttributes)
+        [Caption("В пути")]
+        4,
+        
+        // *** Start programmer edit section *** (Состояние.5 CustomAttributes)
+
+        // *** End programmer edit section *** (Состояние.5 CustomAttributes)
+        [Caption("В сортировочном центре")]
+        5,
+        
+        // *** Start programmer edit section *** (Состояние.6 CustomAttributes)
+
+        // *** End programmer edit section *** (Состояние.6 CustomAttributes)
+        [Caption("Разгрузка в пункте выдаче")]
+        6,
+        
+        // *** Start programmer edit section *** (Состояние.7 CustomAttributes)
+
+        // *** End programmer edit section *** (Состояние.7 CustomAttributes)
+        [Caption("Готов к выдачи")]
+        7,
     }
 }

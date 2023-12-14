@@ -56,7 +56,7 @@
             {
               "name": "датаНачала",
               "caption": "Дата начала",
-              "hidden": false,
+              "hidden": true,
               "index": 2
             },
             {
@@ -68,13 +68,13 @@
             {
               "name": "продления",
               "caption": "Продления",
-              "hidden": true,
+              "hidden": false,
               "index": 4
             }
           ],
           "index": 1,
           "type": "standard",
-          "caption": "Хранение",
+          "caption": "Дата начала",
           "name": "хранение",
           "relatedTo": "i-i-s-545445454554-хранение",
           "inverse": null

@@ -30,11 +30,11 @@ namespace IIS.545445454554
     [AccessType(ICSSoft.STORMNET.AccessType.none)]
     [View("ЯчейкаE", new string[] {
             "НомерЯчейки as \'Номер ячейки\'",
-            "Хранение as \'Хранение\'",
+            "Хранение as \'Дата начала\'",
             "Хранение.ДатаНачала as \'Дата начала\'",
             "Хранение.ДатаЗавершения as \'Дата завершения \'",
             "Хранение.Продления as \'Продления\'"}, Hidden=new string[] {
-            "Хранение.Продления"})]
+            "Хранение.ДатаНачала"})]
     [MasterViewDefineAttribute("ЯчейкаE", "Хранение", ICSSoft.STORMNET.LookupTypeEnum.Standard, "", "Продления")]
     public class Ячейка : ICSSoft.STORMNET.DataObject
     {

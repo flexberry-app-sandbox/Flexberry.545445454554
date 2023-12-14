@@ -12,6 +12,7 @@ namespace IIS.545445454554
 {
     using System;
     using System.Xml;
+    using ICSSoft.STORMNET;
     
     
     // *** Start programmer edit section *** (Using statements)
@@ -31,6 +32,13 @@ namespace IIS.545445454554
         // *** Start programmer edit section *** (Статусы.1 CustomAttributes)
 
         // *** End programmer edit section *** (Статусы.1 CustomAttributes)
+        [Caption("Исправен")]
         1,
+        
+        // *** Start programmer edit section *** (Статусы.2 CustomAttributes)
+
+        // *** End programmer edit section *** (Статусы.2 CustomAttributes)
+        [Caption("Неисправен")]
+        2,
     }
 }

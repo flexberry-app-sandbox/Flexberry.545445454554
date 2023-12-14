@@ -107,13 +107,13 @@
             {
               "name": "дата",
               "caption": "Дата транзакции",
-              "hidden": false,
+              "hidden": true,
               "index": 3
             },
             {
               "name": "время",
-              "caption": "Время",
-              "hidden": true,
+              "caption": "Время транзакции",
+              "hidden": false,
               "index": 4
             },
             {
@@ -139,14 +139,14 @@
           "attrs": [
             {
               "name": "состояние",
-              "caption": "Состояние",
-              "hidden": false,
+              "caption": "Состояние посылки",
+              "hidden": true,
               "index": 8
             },
             {
               "name": "информация",
-              "caption": "Информация",
-              "hidden": true,
+              "caption": "Информация о посылке",
+              "hidden": false,
               "index": 9
             }
           ],
@@ -166,7 +166,7 @@
           "attrs": [
             {
               "name": "сгенКлюч",
-              "caption": "Сген ключ",
+              "caption": "Сгенерированный ключ",
               "hidden": true,
               "index": 11
             }
