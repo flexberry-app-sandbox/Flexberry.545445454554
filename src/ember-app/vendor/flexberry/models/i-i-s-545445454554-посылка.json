@@ -1,0 +1,188 @@
+﻿{
+  "name": "IIS545445454554Посылка",
+  "modelName": "i-i-s-545445454554-посылка",
+  "className": "Посылка",
+  "nameSpace": "IIS.545445454554",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "номер",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "статус",
+      "type": "i-i-s-545445454554-статус",
+      "flexberryType": "Статус",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "ключ",
+      "relatedTo": "i-i-s-545445454554-ключ",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "логистика",
+      "relatedTo": "i-i-s-545445454554-логистика",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "транзакция",
+      "relatedTo": "i-i-s-545445454554-транзакция",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "хранение",
+      "relatedTo": "i-i-s-545445454554-хранение",
+      "inverse": "посылка"
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "ПосылкаE",
+      "modelName": "i-i-s-545445454554-посылка",
+      "attrs": [
+        {
+          "name": "номер",
+          "caption": "Номер",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "статус",
+          "caption": "Статус",
+          "hidden": false,
+          "index": 1
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": "Время",
+          "lookupValueField": "время",
+          "relationName": "Транзакция",
+          "belongsTo": [
+            {
+              "lookupValue": null,
+              "lookupValueField": null,
+              "relationName": "Транзакция.Пользователь",
+              "belongsTo": [],
+              "hidden": false,
+              "attrs": [
+                {
+                  "name": "фИО",
+                  "caption": "ФИО пользователь",
+                  "hidden": false,
+                  "index": 6
+                }
+              ],
+              "index": -1,
+              "type": null,
+              "caption": "",
+              "name": "пользователь",
+              "relatedTo": "i-i-s-545445454554-пользователь",
+              "inverse": null
+            }
+          ],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "дата",
+              "caption": "Дата транзакции",
+              "hidden": false,
+              "index": 3
+            },
+            {
+              "name": "время",
+              "caption": "Время",
+              "hidden": true,
+              "index": 4
+            },
+            {
+              "name": "номер",
+              "caption": "Номер транзакции",
+              "hidden": false,
+              "index": 5
+            }
+          ],
+          "index": 2,
+          "type": "standard",
+          "caption": "Транзакция",
+          "name": "транзакция",
+          "relatedTo": "i-i-s-545445454554-транзакция",
+          "inverse": null
+        },
+        {
+          "lookupValue": "Информация",
+          "lookupValueField": "информация",
+          "relationName": "Логистика",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "состояние",
+              "caption": "Состояние",
+              "hidden": false,
+              "index": 8
+            },
+            {
+              "name": "информация",
+              "caption": "Информация",
+              "hidden": true,
+              "index": 9
+            }
+          ],
+          "index": 7,
+          "type": "standard",
+          "caption": "Логистика",
+          "name": "логистика",
+          "relatedTo": "i-i-s-545445454554-логистика",
+          "inverse": null
+        },
+        {
+          "lookupValue": "СгенКлюч",
+          "lookupValueField": "сгенКлюч",
+          "relationName": "Ключ",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "сгенКлюч",
+              "caption": "Сген ключ",
+              "hidden": true,
+              "index": 11
+            }
+          ],
+          "index": 10,
+          "type": "standard",
+          "caption": "Ключ",
+          "name": "ключ",
+          "relatedTo": "i-i-s-545445454554-ключ",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

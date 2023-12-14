@@ -1,0 +1,64 @@
+﻿{
+  "applicationCaption": "545445454554",
+  "applicationTitle": "545445454554",
+  "items": [
+    {
+      "link": null,
+      "menuName": "545445454554",
+      "caption": "545445454554",
+      "title": "545445454554",
+      "children": [
+        {
+          "link": "i-i-s-545445454554-служба-доставки-l",
+          "menuName": null,
+          "caption": "Служба доставки",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-545445454554-хранение-l",
+          "menuName": null,
+          "caption": "Хранение",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-545445454554-ключ-l",
+          "menuName": null,
+          "caption": "Ключ",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-545445454554-логистика-l",
+          "menuName": null,
+          "caption": "Логистика",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-545445454554-пользователь-l",
+          "menuName": null,
+          "caption": "Пользователь",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-545445454554-транзакция-l",
+          "menuName": null,
+          "caption": "Транзакция",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-545445454554-постамат-l",
+          "menuName": null,
+          "caption": "Постамат",
+          "title": "",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}

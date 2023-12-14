@@ -1,0 +1,31 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "СлужбаДоставки",
+      "projection": "СлужбаДоставкиL",
+      "detailModelName": null
+    },
+    {
+      "master": "хранение",
+      "displayAttributeName": "продления",
+      "required": true,
+      "relationName": "Ячейка.Хранение",
+      "projection": "ХранениеL",
+      "detailModelName": "i-i-s-545445454554-ячейка"
+    }
+  ],
+  "external": false,
+  "caption": "Постамат",
+  "name": "IIS545445454554ПостаматE",
+  "className": "ПостаматE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-545445454554-постамат",
+      "modelProjection": "ПостаматE"
+    }
+  ]
+}

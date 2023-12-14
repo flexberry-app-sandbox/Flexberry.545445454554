@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-545445454554-ключ-e",
+  "editForm": "i-i-s-545445454554-ключ-e",
+  "external": false,
+  "caption": "Ключ",
+  "name": "IIS545445454554КлючL",
+  "className": "КлючL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-545445454554-ключ",
+      "modelProjection": "КлючL"
+    }
+  ]
+}
