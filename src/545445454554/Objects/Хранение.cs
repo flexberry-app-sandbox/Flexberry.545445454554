@@ -49,7 +49,7 @@ namespace IIS.545445454554
         
         private System.DateTime fДатаЗавершения;
         
-        private string fПродления = "НеПродлен";
+        private string fПродления = "Не продлен";
         
         private IIS.545445454554.DetailArrayOfПосылка fПосылка;
         

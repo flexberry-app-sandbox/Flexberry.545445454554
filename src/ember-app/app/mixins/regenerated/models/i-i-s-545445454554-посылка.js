@@ -62,19 +62,19 @@ export let defineProjections = function (modelClass) {
     номер: attr('Номер', { index: 0 }),
     статус: attr('Статус', { index: 1 }),
     транзакция: belongsTo('i-i-s-545445454554-транзакция', 'Транзакция', {
-      дата: attr('Дата транзакции', { index: 3, hidden: true }),
-      время: attr('Время транзакции', { index: 4 }),
+      время: attr('Время транзакции', { index: 3, hidden: true }),
+      дата: attr('Дата транзакции', { index: 4 }),
       номер: attr('Номер транзакции', { index: 5 }),
       пользователь: belongsTo('i-i-s-545445454554-пользователь', '', {
         фИО: attr('ФИО пользователь', { index: 6 })
       }, { index: -1, hidden: true })
     }, { index: 2, displayMemberPath: 'время' }),
     логистика: belongsTo('i-i-s-545445454554-логистика', 'Логистика', {
-      состояние: attr('Состояние посылки', { index: 8, hidden: true }),
-      информация: attr('Информация о посылке', { index: 9 })
+      информация: attr('Информация о посылке', { index: 8 }),
+      состояние: attr('Состояние посылки', { index: 9 })
     }, { index: 7, displayMemberPath: 'информация' }),
-    ключ: belongsTo('i-i-s-545445454554-ключ', 'Ключ', {
-      сгенКлюч: attr('Сгенерированный ключ', { index: 11, hidden: true })
+    ключ: belongsTo('i-i-s-545445454554-ключ', 'Сгенерированный код', {
+      сгенКлюч: attr('Сгенерированный код', { index: 11, hidden: true })
     }, { index: 10, displayMemberPath: 'сгенКлюч' })
   });
 };

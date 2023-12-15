@@ -33,7 +33,7 @@
       "attrs": [
         {
           "name": "сгенКлюч",
-          "caption": "Сген ключ",
+          "caption": "Сгенерированный код",
           "hidden": false,
           "index": 0
         }
@@ -69,7 +69,7 @@
       "attrs": [
         {
           "name": "сгенКлюч",
-          "caption": "Сген ключ",
+          "caption": "Сгенерированный код",
           "hidden": false,
           "index": 0
         }

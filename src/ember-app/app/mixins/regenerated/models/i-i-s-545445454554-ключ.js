@@ -28,14 +28,14 @@ export let ValidationRules = {
 
 export let defineProjections = function (modelClass) {
   modelClass.defineProjection('КлючE', 'i-i-s-545445454554-ключ', {
-    сгенКлюч: attr('Сген ключ', { index: 0 }),
+    сгенКлюч: attr('Сгенерированный код', { index: 0 }),
     пользователь: belongsTo('i-i-s-545445454554-пользователь', 'Пользователь', {
       фИО: attr('ФИО', { index: 2, hidden: true })
     }, { index: 1, displayMemberPath: 'фИО' })
   });
 
   modelClass.defineProjection('КлючL', 'i-i-s-545445454554-ключ', {
-    сгенКлюч: attr('Сген ключ', { index: 0 }),
+    сгенКлюч: attr('Сгенерированный код', { index: 0 }),
     пользователь: belongsTo('i-i-s-545445454554-пользователь', 'ФИО', {
       фИО: attr('ФИО', { index: 1 })
     }, { index: -1, hidden: true })

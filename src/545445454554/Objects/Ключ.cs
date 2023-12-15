@@ -29,13 +29,13 @@ namespace IIS.545445454554
     [AutoAltered()]
     [AccessType(ICSSoft.STORMNET.AccessType.none)]
     [View("КлючE", new string[] {
-            "СгенКлюч as \'Сген ключ\'",
+            "СгенКлюч as \'Сгенерированный код\'",
             "Пользователь as \'Пользователь\'",
             "Пользователь.ФИО as \'ФИО\'"}, Hidden=new string[] {
             "Пользователь.ФИО"})]
     [MasterViewDefineAttribute("КлючE", "Пользователь", ICSSoft.STORMNET.LookupTypeEnum.Standard, "", "ФИО")]
     [View("КлючL", new string[] {
-            "СгенКлюч as \'Сген ключ\'",
+            "СгенКлюч as \'Сгенерированный код\'",
             "Пользователь.ФИО as \'ФИО\'"})]
     public class Ключ : ICSSoft.STORMNET.DataObject
     {
