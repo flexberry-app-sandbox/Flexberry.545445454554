@@ -6,7 +6,7 @@ import { attr, belongsTo, hasMany } from 'ember-flexberry-data/utils/attributes'
 
 export let Model = Mixin.create({
   адрес: DS.attr('string'),
-  наименвоание: DS.attr('string'),
+  наименование: DS.attr('string'),
   номер: DS.attr('number'),
   номерТелефона: DS.attr('number')
 });
@@ -18,8 +18,8 @@ export let ValidationRules = {
       validator('ds-error'),
     ],
   },
-  наименвоание: {
-    descriptionKey: 'models.i-i-s-545445454554-служба-доставки.validations.наименвоание.__caption__',
+  наименование: {
+    descriptionKey: 'models.i-i-s-545445454554-служба-доставки.validations.наименование.__caption__',
     validators: [
       validator('ds-error'),
     ],
@@ -43,14 +43,14 @@ export let ValidationRules = {
 export let defineProjections = function (modelClass) {
   modelClass.defineProjection('СлужбаДоставкиE', 'i-i-s-545445454554-служба-доставки', {
     номер: attr('Номер', { index: 0 }),
-    наименвоание: attr('Наименвоание', { index: 1 }),
+    наименование: attr('Наименование', { index: 1 }),
     адрес: attr('Адрес', { index: 2 }),
     номерТелефона: attr('Номер телефона', { index: 3 })
   });
 
   modelClass.defineProjection('СлужбаДоставкиL', 'i-i-s-545445454554-служба-доставки', {
     номер: attr('Номер', { index: 0 }),
-    наименвоание: attr('Наименвоание', { index: 1 }),
+    наименование: attr('Наименование', { index: 1 }),
     адрес: attr('Адрес', { index: 2 }),
     номерТелефона: attr('Номер телефона', { index: 3 })
   });

@@ -24,8 +24,8 @@ public class SluzhbaDostavki {
     @Column(name = "Номер")
     private Integer номер;
 
-    @Column(name = "Наименвоание")
-    private String наименвоание;
+    @Column(name = "Наименование")
+    private String наименование;
 
     @Column(name = "Адрес")
     private String адрес;
@@ -54,12 +54,12 @@ public class SluzhbaDostavki {
       this.номер = номер;
     }
 
-    public String getНаименвоание() {
-      return наименвоание;
+    public String getНаименование() {
+      return наименование;
     }
 
-    public void setНаименвоание(String наименвоание) {
-      this.наименвоание = наименвоание;
+    public void setНаименование(String наименование) {
+      this.наименование = наименование;
     }
 
     public String getАдрес() {

@@ -31,12 +31,12 @@ namespace IIS.545445454554
     [AccessType(ICSSoft.STORMNET.AccessType.none)]
     [View("СлужбаДоставкиE", new string[] {
             "Номер as \'Номер\'",
-            "Наименвоание as \'Наименвоание\'",
+            "Наименование as \'Наименование\'",
             "Адрес as \'Адрес\'",
             "НомерТелефона as \'Номер телефона\'"})]
     [View("СлужбаДоставкиL", new string[] {
             "Номер as \'Номер\'",
-            "Наименвоание as \'Наименвоание\'",
+            "Наименование as \'Наименование\'",
             "Адрес as \'Адрес\'",
             "НомерТелефона as \'Номер телефона\'"})]
     public class СлужбаДоставки : ICSSoft.STORMNET.DataObject
@@ -44,7 +44,7 @@ namespace IIS.545445454554
         
         private int fНомер;
         
-        private string fНаименвоание;
+        private string fНаименование;
         
         private string fАдрес;
         
@@ -88,34 +88,34 @@ namespace IIS.545445454554
         }
         
         /// <summary>
-        /// Наименвоание.
+        /// Наименование.
         /// </summary>
-        // *** Start programmer edit section *** (СлужбаДоставки.Наименвоание CustomAttributes)
+        // *** Start programmer edit section *** (СлужбаДоставки.Наименование CustomAttributes)
 
-        // *** End programmer edit section *** (СлужбаДоставки.Наименвоание CustomAttributes)
+        // *** End programmer edit section *** (СлужбаДоставки.Наименование CustomAttributes)
         [StrLen(255)]
-        public virtual string Наименвоание
+        public virtual string Наименование
         {
             get
             {
-                // *** Start programmer edit section *** (СлужбаДоставки.Наименвоание Get start)
+                // *** Start programmer edit section *** (СлужбаДоставки.Наименование Get start)
 
-                // *** End programmer edit section *** (СлужбаДоставки.Наименвоание Get start)
-                string result = this.fНаименвоание;
-                // *** Start programmer edit section *** (СлужбаДоставки.Наименвоание Get end)
+                // *** End programmer edit section *** (СлужбаДоставки.Наименование Get start)
+                string result = this.fНаименование;
+                // *** Start programmer edit section *** (СлужбаДоставки.Наименование Get end)
 
-                // *** End programmer edit section *** (СлужбаДоставки.Наименвоание Get end)
+                // *** End programmer edit section *** (СлужбаДоставки.Наименование Get end)
                 return result;
             }
             set
             {
-                // *** Start programmer edit section *** (СлужбаДоставки.Наименвоание Set start)
+                // *** Start programmer edit section *** (СлужбаДоставки.Наименование Set start)
 
-                // *** End programmer edit section *** (СлужбаДоставки.Наименвоание Set start)
-                this.fНаименвоание = value;
-                // *** Start programmer edit section *** (СлужбаДоставки.Наименвоание Set end)
+                // *** End programmer edit section *** (СлужбаДоставки.Наименование Set start)
+                this.fНаименование = value;
+                // *** Start programmer edit section *** (СлужбаДоставки.Наименование Set end)
 
-                // *** End programmer edit section *** (СлужбаДоставки.Наименвоание Set end)
+                // *** End programmer edit section *** (СлужбаДоставки.Наименование Set end)
             }
         }
         

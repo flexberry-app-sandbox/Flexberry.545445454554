@@ -22,13 +22,13 @@ export default Controller.extend({
             link: 'i-i-s-545445454554-хранение-l',
             caption: i18n.t('forms.application.sitemap.постамат.i-i-s-545445454554-хранение-l.caption'),
             title: i18n.t('forms.application.sitemap.постамат.i-i-s-545445454554-хранение-l.title'),
-            icon: 'suitcase',
+            icon: 'briefcase',
             children: null
           }, {
             link: 'i-i-s-545445454554-постамат-l',
             caption: i18n.t('forms.application.sitemap.постамат.i-i-s-545445454554-постамат-l.caption'),
             title: i18n.t('forms.application.sitemap.постамат.i-i-s-545445454554-постамат-l.title'),
-            icon: 'chart line',
+            icon: 'suitcase',
             children: null
           }]
         }, {
@@ -40,13 +40,13 @@ export default Controller.extend({
             link: 'i-i-s-545445454554-служба-доставки-l',
             caption: i18n.t('forms.application.sitemap.служба-доставки.i-i-s-545445454554-служба-доставки-l.caption'),
             title: i18n.t('forms.application.sitemap.служба-доставки.i-i-s-545445454554-служба-доставки-l.title'),
-            icon: 'address card',
+            icon: 'folder open',
             children: null
           }, {
             link: 'i-i-s-545445454554-логистика-l',
             caption: i18n.t('forms.application.sitemap.служба-доставки.i-i-s-545445454554-логистика-l.caption'),
             title: i18n.t('forms.application.sitemap.служба-доставки.i-i-s-545445454554-логистика-l.title'),
-            icon: 'folder',
+            icon: 'edit',
             children: null
           }]
         }, {
@@ -58,13 +58,13 @@ export default Controller.extend({
             link: 'i-i-s-545445454554-пользователь-l',
             caption: i18n.t('forms.application.sitemap.пользователь.i-i-s-545445454554-пользователь-l.caption'),
             title: i18n.t('forms.application.sitemap.пользователь.i-i-s-545445454554-пользователь-l.title'),
-            icon: 'folder open',
+            icon: 'tasks',
             children: null
           }, {
             link: 'i-i-s-545445454554-ключ-l',
             caption: i18n.t('forms.application.sitemap.пользователь.i-i-s-545445454554-ключ-l.caption'),
             title: i18n.t('forms.application.sitemap.пользователь.i-i-s-545445454554-ключ-l.title'),
-            icon: 'list',
+            icon: 'briefcase',
             children: null
           }]
         }, {
@@ -76,7 +76,7 @@ export default Controller.extend({
             link: 'i-i-s-545445454554-транзакция-l',
             caption: i18n.t('forms.application.sitemap.транзакция.i-i-s-545445454554-транзакция-l.caption'),
             title: i18n.t('forms.application.sitemap.транзакция.i-i-s-545445454554-транзакция-l.title'),
-            icon: 'table',
+            icon: 'briefcase',
             children: null
           }]
         }

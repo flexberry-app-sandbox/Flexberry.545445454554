@@ -6,7 +6,7 @@
 CREATE TABLE СлужбаДоставки (
  primaryKey UUID NOT NULL,
  Адрес VARCHAR(255) NULL,
- Наименвоание VARCHAR(255) NULL,
+ Наименование VARCHAR(255) NULL,
  Номер INT NULL,
  НомерТелефона INT NULL,
  PRIMARY KEY (primaryKey));

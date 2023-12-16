@@ -77,8 +77,8 @@
           "hidden": false,
           "attrs": [
             {
-              "name": "наименвоание",
-              "caption": "Наименвоание",
+              "name": "наименование",
+              "caption": "Наименование службы доставки",
               "hidden": true,
               "index": 4
             }
@@ -125,15 +125,15 @@
           "hidden": false,
           "attrs": [
             {
-              "name": "наименвоание",
-              "caption": "Наименвоание",
+              "name": "наименование",
+              "caption": "Наименование службы доставки",
               "hidden": false,
               "index": 3
             }
           ],
           "index": -1,
           "type": "default",
-          "caption": "Наименвоание",
+          "caption": "Наименование службы доставки",
           "name": "службаДоставки",
           "relatedTo": "i-i-s-545445454554-служба-доставки",
           "inverse": null

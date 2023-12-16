@@ -73,6 +73,16 @@
     {{flexberry-validationmessage error=(v-get validationModel "службаДоставки" "message")}}
   </div>
   <div class="field">
+    {{flexberry-field
+      readonly=true
+      value=model.службаДоставки.наименование
+      class=(if (v-get validationModel.службаДоставки "наименование" "isInvalid") "error")
+      label=(t "forms.i-i-s-545445454554-постамат-e.службаДоставки.наименование-caption")
+      data-test-i-i-s-545445454554-постамат-e-службаДоставки-наименование=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel.службаДоставки "наименование" "message")}}
+  </div>
+  <div class="field">
     <label>{{t "forms.i-i-s-545445454554-постамат-e.ячейка-caption"}}</label>
     {{flexberry-groupedit
       componentName="ячейкаGroupEdit"

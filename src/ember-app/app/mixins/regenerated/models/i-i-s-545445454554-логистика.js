@@ -46,7 +46,7 @@ export let defineProjections = function (modelClass) {
     состояние: attr('Состояние', { index: 1 }),
     информация: attr('Информация', { index: 2 }),
     службаДоставки: belongsTo('i-i-s-545445454554-служба-доставки', 'Служба доставки', {
-      наименвоание: attr('Наименвоание', { index: 4, hidden: true })
+      наименование: attr('Наименование службы доставки', { index: 4, hidden: true })
     }, { index: 3, displayMemberPath: 'наименвоание' })
   });
 
@@ -54,8 +54,8 @@ export let defineProjections = function (modelClass) {
     номер: attr('Номер', { index: 0 }),
     состояние: attr('Состояние', { index: 1 }),
     информация: attr('Информация', { index: 2 }),
-    службаДоставки: belongsTo('i-i-s-545445454554-служба-доставки', 'Наименвоание', {
-      наименвоание: attr('Наименвоание', { index: 3 })
+    службаДоставки: belongsTo('i-i-s-545445454554-служба-доставки', 'Наименование службы доставки', {
+      наименование: attr('Наименование службы доставки', { index: 3 })
     }, { index: -1, hidden: true })
   });
 };

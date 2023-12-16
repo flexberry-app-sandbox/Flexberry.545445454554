@@ -54,7 +54,7 @@ export let defineProjections = function (modelClass) {
     адрес: attr('Адрес', { index: 1 }),
     статус: attr('Статус', { index: 2 }),
     службаДоставки: belongsTo('i-i-s-545445454554-служба-доставки', 'Служба доставки', {
-      наименвоание: attr('Наименвоание', { index: 4, hidden: true })
+      наименование: attr('Наименоание', { index: 4 })
     }, { index: 3, displayMemberPath: 'наименвоание' }),
     ячейка: hasMany('i-i-s-545445454554-ячейка', 'Ячейка', {
       номерЯчейки: attr('Номер ячейки', { index: 0 }),
@@ -70,8 +70,8 @@ export let defineProjections = function (modelClass) {
     номер: attr('Номер', { index: 0 }),
     адрес: attr('Адрес', { index: 1 }),
     статус: attr('Статус', { index: 2 }),
-    службаДоставки: belongsTo('i-i-s-545445454554-служба-доставки', 'Наименвоание', {
-      наименвоание: attr('Наименвоание', { index: 3 })
+    службаДоставки: belongsTo('i-i-s-545445454554-служба-доставки', 'Наименование службы доствки', {
+      наименование: attr('Наименование службы доствки', { index: 3 })
     }, { index: -1, hidden: true })
   });
 };
